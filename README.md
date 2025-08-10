@@ -11,5 +11,5 @@ dsa-practice /
 ## Problems Solved
 
 ### Arrays
-  - [Second Largest Element in a List] (arrays/second_largest_num.py)
+  - [Second Largest Element in a List](arrays/second_largest_num.py)
     
