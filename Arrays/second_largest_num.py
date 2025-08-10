@@ -2,16 +2,9 @@
 # Category: Arrays (Lists in Python)
 # Approach: Single-pass comparison
 # Complexity: O(n) time, O(1) space
-# Example:
-#   Input: [10, 5, 8, 20]
-#   Output: 10
 
 def second_largest_element(numbers):
-    """
-    Returns the second largest number in the given list.
-    :param numbers: List of integers
-    :return: Integer (second largest element)
-    """
+   
     if len(numbers) < 2:
         raise ValueError("List must contain at least two numbers.")
 
