@@ -1,2 +1,4 @@
-# DSA-Practice
-My journey in mastering Data structures and Algorithms with daily practice problems and solutions
+# Data Structures & Algorithms - Mastery Journey
+
+Welcome to My DSA practice vault -- a growing collection of problems, solutions and explainations designed to sharpen my problem-solving skills and deepen my understanding of core computer science concepts. ---
+
