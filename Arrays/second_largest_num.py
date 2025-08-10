@@ -1,33 +1,29 @@
 # Problem: Find the Second Largest Element in a List
 # Category: Arrays (Lists in Python)
 # Approach: Single-pass comparison
-# Complexity: O(n) time, O(1) space
 
-def second_largest_element(numbers):
-   
-    if len(numbers) < 2:
-        raise ValueError("List must contain at least two numbers.")
+def linearSearch(listOfNumbers):
+    for i in listOfNumbers:
+      maxNum = max(listOfNumbers)
+      secondLargeNum = None
+      for j in listOfNumbers:
+          if j == maxNum:
+              continue
+          else:
+              if j > i:
+                 secondLarge = j
+    return secondLarge
 
-    largest = second_largest = float('-inf')
-
-    for num in numbers:
-        if num > largest:
-            second_largest = largest
-            largest = num
-        elif largest > num > second_largest:
-            second_largest = num
-
-    if second_largest == float('-inf'):
-        raise ValueError("No second largest element found (all elements might be equal).")
-
-    return second_largest
+def secondLargestElement(listOfNumbers):
+    return linearSearch(listOfNumbers)
 
 
-if _name_ == "_main_":
-    try:
-        # Input as comma-separated integers
-        nums = list(map(int, input("Enter the numbers (comma-separated): ").split(',')))
-        result = second_largest_element(nums)
-        print(f"Second Largest Element: {result}")
-    except ValueError as e:
-        print("Error:", e)
+num = input('Enter the numbers :').split(',')
+
+SL = secondLargestElement(num)
+
+print(f"second Largest in the Array is :{SL}")
+
+
+
+
