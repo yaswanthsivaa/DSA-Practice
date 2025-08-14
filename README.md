@@ -13,4 +13,8 @@ dsa-practice /
 
 ### Arrays
   - [Second Largest Element in a List](Arrays/second_largest_num.py)
-    
+
+
+### Sorting-Algorithms
+
+ - [Bubble sort](Sorting-Algorithms/Bubble-Sort.py)
