@@ -17,4 +17,4 @@ dsa-practice /
 
 ### Sorting-Algorithms
 
- - [Bubble sort](Sorting-Algorithms/Bubble-Sort.py)
+ - [Bubble sort](Sorting-Algorithms/Bubble-sort.py)
