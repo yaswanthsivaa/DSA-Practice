@@ -16,5 +16,6 @@ def bubbleSort(nums):
             
 
 numbers = [5, 1, 4, 2, 8]
+print("numbers before sorted :", numbers)
 bubbleSort(numbers)
-print(numbers)
+print("numbers after sorted :",numbers)
