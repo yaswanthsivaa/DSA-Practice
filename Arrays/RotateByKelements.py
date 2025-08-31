@@ -1,4 +1,5 @@
 # Rotate Array By K elements
+# Time complexity :-- O(n) & Space complexity :-- O(1)
 
 nums = [1,2,3,4,5]
 
