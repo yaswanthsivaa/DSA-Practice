@@ -13,6 +13,7 @@ dsa-practice /
 
 ### Arrays
   - [Second Largest Element in a List](Arrays/second_largest_num.py)
+  - [Leaders in the Array](Arrays/Leaders.py)
 
 
 ### Sorting-Algorithms
