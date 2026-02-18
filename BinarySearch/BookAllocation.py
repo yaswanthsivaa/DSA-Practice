@@ -30,7 +30,7 @@ high = sum(nums)
 #     print(i)
 #     break
   
-# Optimal
+# Optimal Using Binary search
 
 answer = high
 while low <= high:
