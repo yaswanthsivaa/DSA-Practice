@@ -16,4 +16,5 @@ class Solution:
                 nge[i] = stack[-1] if stack else -1
             
             stack.append(nums[i % len(nums)])
+
         return nge
