@@ -23,4 +23,5 @@ class Solution:
                     stack.pop()
                 else:
                     return False
+
         return stack == []
