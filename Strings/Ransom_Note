@@ -1,0 +1,23 @@
+# Ransom Note Problem (Leetcode 383)
+    # Time Complexity = O(n + m)  
+    # Space Complexity = O(k) # k = no. of unique characters
+
+class Solution:
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        chars = {}
+        for l in magazine:
+            if l not in lets:
+               chars[l] = 1
+            else:
+                chars[l] += 1
+        
+        for l in ransomNote:
+            if l not in chars:
+                return False
+            
+            if lets[l] == 1:
+               del chars[l]
+            else:
+                chars[l] -= 1
+        
+        return True
