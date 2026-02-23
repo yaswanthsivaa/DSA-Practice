@@ -2,7 +2,7 @@
      # Time Complexity = O(log n)
      # Space Complexity = O(1)
 
-lass Solution:
+class Solution:
     def peakIndexInMountainArray(self, arr: List[int]) -> int:
 
         # Linear Seach
@@ -13,7 +13,6 @@ lass Solution:
         #     if arr[i] > num and arr[i] > arr[i+1]:
         #         return i
         #     num = arr[i]
-
 
         # Binary Search 
 
