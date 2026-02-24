@@ -1,4 +1,6 @@
 # Delete Node in a Linked List (Leetcode 237)
+   # Time Complexity = O(1)
+   # Space Complexity = O(1)
 
 # Definition for singly-linked list.
 # class ListNode:
