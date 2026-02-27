@@ -1,4 +1,6 @@
 # Linked List Cycle 2 (Leetcode 142)
+  # Time Complexity = O(2N)
+  # Space Complexity = O(1)
 
 # Definition for singly-linked list.
 # class ListNode:
