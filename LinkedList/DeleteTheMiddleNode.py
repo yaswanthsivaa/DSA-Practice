@@ -1,7 +1,5 @@
 # Delete the Middle Node in the Linked List (Leetcode 2095)
-   # Time Complexity = O(2N)
-   # Space Complexity = O(1)
-
+   
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -10,6 +8,11 @@
 class Solution:
     def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
+        # Brute Force
+        # Time Complexity = O(2N)
+        # Space Complexity = O(1)
+
+       
         if not head.next:
             head = None
             return head
@@ -33,3 +36,27 @@ class Solution:
             temp = temp.next
         
         return head
+
+       
+        # Optimal Solution
+        # Time Complexity = O(N)
+        # Space Complexity = O(1)
+
+       
+        if not head.next:
+           return None
+
+        slow = head
+        fast = head
+        prev = None
+
+        while fast and fast.next:
+            prev = slow
+            slow = slow.next
+            fast = fast.next.next
+        
+        prev.next = slow.next
+
+        return head
+
+
