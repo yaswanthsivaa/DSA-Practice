@@ -1,0 +1,20 @@
+# Intersection of Two Linked Lists (Leetcode 160)
+   # Time Complexity = O(2N)
+   # Space Complexity = O(N)
+
+class Solution:
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+        
+        st = set()
+        temp = headA
+        while temp:
+            st.add(temp)
+            temp = temp.next
+        
+        temp = headB
+        while temp:
+            if temp in st:
+                return temp
+            temp = temp.next
+        
+        return None
