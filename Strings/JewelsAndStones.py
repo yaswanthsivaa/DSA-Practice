@@ -8,5 +8,5 @@ class Solution:
         for i in range(len(stones)):
             if stones[i] in jewels:
                 jewelsHave += 1
-        
+         
         return jewelsHave
