@@ -25,5 +25,5 @@ class Solution:
 
            maxCount = max(maxCount, count)
            left += 1
-
+ 
         return maxCount
