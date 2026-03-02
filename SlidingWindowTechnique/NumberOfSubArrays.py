@@ -17,7 +17,7 @@ class Solution:
         for i in range(k, len(arr)):
             windowSum += arr[i]
             windowSum -= arr[i - k]
-
+ 
             if windowSum >= threshold * k:
                 possibleWindows += 1
         return possibleWindows
