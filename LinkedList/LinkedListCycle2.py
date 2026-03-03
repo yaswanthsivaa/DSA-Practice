@@ -22,7 +22,6 @@ class Solution:
         if speed.next:
             return None
         
-
         slow = head
 
         while slow != speed:
