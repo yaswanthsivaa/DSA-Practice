@@ -10,7 +10,6 @@ class Solution:
             num = abs(x)
             res = 0
 
-
             while num > 0:
 
                 digit = num % 10
