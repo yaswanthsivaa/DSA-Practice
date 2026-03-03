@@ -12,7 +12,6 @@ class Solution:
         # Time Complexity = O(2N)
         # Space Complexity = O(1)
 
-       
         if not head.next:
             head = None
             return head
