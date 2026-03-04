@@ -26,7 +26,7 @@ class Solution:
                l1 = l1.next
             if l2:
                l2 = l2.next
-        
+         
         if carry:
             new = ListNode(carry)
             tail.next = new
