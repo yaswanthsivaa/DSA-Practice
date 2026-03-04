@@ -12,7 +12,7 @@ class Solution:
         tail = dummy
         curr = head
 
-        while curr:
+        while curr: 
 
             if curr.val != val:
                 tail.next = curr
