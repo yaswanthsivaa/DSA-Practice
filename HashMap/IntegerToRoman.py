@@ -13,5 +13,5 @@ class Solution:
             while num >= k:
                 num = num - k
                 res.append(mp[k])
-        
+                
         return "".join(res)
