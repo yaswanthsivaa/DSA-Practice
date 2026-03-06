@@ -9,7 +9,6 @@ def mulResult(mid, n):
         ans = ans * mid
     return ans
 
-
 low, high = 1, m
 isPerfectNthroot = False
 
