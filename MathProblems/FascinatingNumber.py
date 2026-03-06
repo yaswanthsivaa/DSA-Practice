@@ -12,7 +12,7 @@ class Solution:
 
         if "0" in res:
             return False
-        
+    
         checkList = set()
         for i in res:
             if i in "123456789" and i in checkList:
