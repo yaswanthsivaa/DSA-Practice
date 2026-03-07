@@ -10,7 +10,7 @@ class Solution:
                chars[l] = 1
             else:
                 chars[l] += 1
-        
+         
         for l in ransomNote:
             if l not in chars:
                 return False
