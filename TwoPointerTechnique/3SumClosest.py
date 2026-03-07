@@ -48,7 +48,7 @@ class Solution:
                     right -= 1
                 else:
                     return target
-
+ 
         return closest
 
 
