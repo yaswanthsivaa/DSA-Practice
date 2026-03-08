@@ -9,7 +9,7 @@ class Solution:
 
         stack = []
         c = 0
-
+ 
         for i in range(len(num)):
             while stack and stack[-1] > num[i] and c < k:
                 stack.pop()
