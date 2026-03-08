@@ -10,7 +10,7 @@ class Solution:
             for i in range(len(a)-1, -1, -1):
                 while stack and a[stack[-1]] >= a[i]:
                     stack.pop()
-                
+                 
                 if stack:
                     nse[i] = stack[-1]
                 stack.append(i)
