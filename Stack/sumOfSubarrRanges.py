@@ -13,7 +13,7 @@ class Solution:
 
                 while stack and n[stack[-1]] >= n[i]:
                     stack.pop()
-                
+                 
                 if stack:
                     pse[i] = stack[-1]
                 
