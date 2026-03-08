@@ -16,7 +16,6 @@ class Solution:
                 c += 1
             stack.append(num[i])
 
-        # 🔴 MISSING PART (very important)
         while c < k:
             stack.pop()
             c += 1
