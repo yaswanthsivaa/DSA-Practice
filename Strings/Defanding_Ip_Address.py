@@ -12,6 +12,6 @@ class Solution:
                 ans += "["
                 ans += "."
                 ans += "]"
-            
+           
         return ans
         
