@@ -12,7 +12,6 @@ class Solution:
       
         gas = []
         form = set()
-
         for i in range(len(strs)):
 
             ans = []
