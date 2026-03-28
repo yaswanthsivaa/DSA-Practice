@@ -1,4 +1,6 @@
 # Vertical Order Traversal Problem (Leetcode 987)
+   # Time Complexity = O(N log N)
+   # Space Complexity = O(N)
 
 # Definition for a binary tree node.
 # class TreeNode:
