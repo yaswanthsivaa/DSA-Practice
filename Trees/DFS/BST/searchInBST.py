@@ -1,6 +1,8 @@
 # Search in Binary Search Tree (Leetcode 700)
 
-# Time Complexity = O(N)
+# Time Complexity:
+    # Worst Case: O(N) [when Tree is skewed]
+    # Best Case: O(log N) [when Tree is balanced]
 # Space Complexity = O(N)
 
 # Definition for a binary tree node.
