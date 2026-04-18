@@ -8,7 +8,6 @@ class Solution:
         ini = image[sr][sc]
 
         def dfs(row, col, ini):
-
             if row < 0 or col < 0 or row >= len(image)
                or col >= len(image[0]) or image[row][col] == color
                or image[row][col] != ini:
