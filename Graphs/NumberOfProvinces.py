@@ -31,6 +31,29 @@ class Solution:
                noOfProvinces += 1
                dfs(province, adjList, vis)
         return noOfProvinces
+
+        # Second way
+        # TC : O(N^2)
+        # SC : O(N)
+      
+        n = len(isConnected)
+        visited = set()
+
+        def dfs(node):
+            for nei in range(n):
+                if isConnected[node][nei] == 1 and nei not in visited:
+                    visited.add(nei)
+                    dfs(nei)
+
+        count = 0
+
+        for i in range(n):
+            if i not in visited:
+                visited.add(i)
+                dfs(i)
+                count += 1
+        
+        return count
         
 
         
