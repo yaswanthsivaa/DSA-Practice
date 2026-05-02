@@ -1,6 +1,6 @@
 # FindIfPathExists (Leetcode 1971)
-  # Time Complexity = O(V + E)
-  # Space Complexity = O(V)
+  # Time Complexity = O(V + E) : we visit each vertex and edge at most once
+  # Space Complexity = O(V) : for visited set + recursion stack
 
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
