@@ -22,6 +22,20 @@ class Solution:
                       Queue.append(i)
         
         return len(visited) == len(rooms)
+
+
+        # Depth First Search 
+        # Time and Space Complexities are same
+      
+        def dfs(room):
+            visited.add(room)
+
+            for i in rooms[room]:
+                if i not in visited:
+                   dfs(i)
+
+        dfs(0)
+        return len(visited) == len(rooms)
         
 
             
