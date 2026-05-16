@@ -1,4 +1,4 @@
-# Minimum Index Sum of Two Lists (Leetcode 559)
+# Minimum Index Sum of Two Lists (Leetcode 599)
 
 # brute version
   # Time complexity = O(n + m)
