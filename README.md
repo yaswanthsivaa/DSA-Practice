@@ -1,4 +1,3 @@
-
 <h1 align="center">
   👋 Hi, I'm Yaswanth
 </h1>
@@ -16,7 +15,7 @@
 ## 📚 Concepts I’ve Covered
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=1500&pause=400&center=true&vCenter=true&width=900&lines=Arrays;Binary+Search;Linked+Lists;Stack;Strings;Sliding+Window;Two+Pointers;Sorting;Matrix;Math+Problems" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=1500&pause=400&center=true&vCenter=true&width=900&lines=Arrays;Binary+Search;Linked+Lists;Stack;Strings;Sliding+Window;Two+Pointers;Sorting;Matrix;Trees;Graphs;Dynamic+Programming" />
 </p>
 
 ---
@@ -40,9 +39,12 @@
   <td>✅ Matrix</td>
 </tr>
 <tr>
+  <td>✅ Trees</td>
+  <td>✅ Graphs</td>
+  <td>🟡 Dynamic Programming</td>
+</tr>
+<tr>
   <td>✅ Math Problems</td>
-  <td>⏳ Trees</td>
-  <td>⏳ Graphs</td>
 </tr>
 </table>
 
@@ -59,7 +61,8 @@ Strings             ██████████  Completed
 Sliding Window      ██████████  Completed
 Two Pointers        ██████████  Completed
 Sorting Algorithms  ██████████  Completed
-Matrix              ████████░░  In Progress
-Trees               ░░░░░░░░░░  Coming Soon
-Graphs              ░░░░░░░░░░  Coming Soon
-Dynamic Programming ░░░░░░░░░░  Coming Soon
+Matrix              ██████████  Completed
+Trees               ██████████  Completed
+Graphs              ██████████  Completed
+Dynamic Programming ██████░░░░  In Progress
+Math Problems       ██████████  Completed
