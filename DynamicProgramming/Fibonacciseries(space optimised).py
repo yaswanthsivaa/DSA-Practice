@@ -1,15 +1,23 @@
-# Fibnoccai series 
+# Fibnoccai series (Space Optimized - Version)
   # Time complexity= O(N)
   # Space complexity= O(1)
 
-num = int(input("Enter the number for finding the fibonacci Number: "))
 
-prev2 = 0
-prev = 1
+class Solution:
+    def fib(self, n: int) -> int:
 
-for i in range(2, num+1):
-    curr_i = prev + prev2
-    prev2 = prev
-    prev = curr_i
+        if n == 0:
+            return 0
+        
+        if n == 1:
+            return 1
+        
+        prevPrev = 0
+        prev = 1
 
-print(prev)
+        for i in range(2, n+1):
+            curr = prev + prevPrev
+            prevPrev = prev
+            prev = curr
+        
+        return prev
