@@ -6,6 +6,7 @@ def findPages(nums, pages):
   students = 1
   pagesCount = 0
 
+  
   for i in nums:
     if i + pagesCount <= pages:
       pagesCount = pagesCount + i
